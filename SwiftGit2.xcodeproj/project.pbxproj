@@ -277,7 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				BEB31F251A0D6F7A00F525B9 /* SwiftGit2 */,
-				BEB31F321A0D6F7A00F525B9 /* SwiftGit2Tests */,
+				BEB31F321A0D6F7A00F525B9 /* Tests */,
 				BEB31FA11A0E63C100F525B9 /* Libraries */,
 				BEB31F411A0D75EE00F525B9 /* Configuration */,
 				BEB31F241A0D6F7A00F525B9 /* Products */,
@@ -329,7 +329,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BEB31F321A0D6F7A00F525B9 /* SwiftGit2Tests */ = {
+		BEB31F321A0D6F7A00F525B9 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				BE14AA531A1983520015B439 /* Fixtures */,
@@ -341,7 +341,7 @@
 				BE14AA581A1996B70015B439 /* FixturesSpec.swift */,
 				BEB31F331A0D6F7A00F525B9 /* Supporting Files */,
 			);
-			path = SwiftGit2Tests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		BEB31F331A0D6F7A00F525B9 /* Supporting Files */ = {
@@ -848,7 +848,7 @@
 					External/libgit2/include,
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = SwiftGit2/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftGit2/Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"External/libgit2-ios",
 					"External/libssh2-ios/lib",
@@ -877,7 +877,7 @@
 					External/libgit2/include,
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = SwiftGit2/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftGit2/Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"External/libgit2-ios",
 					"External/libssh2-ios/lib",
@@ -902,7 +902,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BEB31F4E1A0D75EE00F525B9 /* iOS-Application.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = SwiftGit2Tests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.libgit2.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -912,7 +912,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BEB31F4E1A0D75EE00F525B9 /* iOS-Application.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = SwiftGit2Tests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.libgit2.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -997,7 +997,7 @@
 					External/libgit2/include,
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = SwiftGit2/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftGit2/Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					External,
 					"$(inherited)",
@@ -1025,7 +1025,7 @@
 					External/libgit2/include,
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = SwiftGit2/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftGit2/Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					External,
 					"$(inherited)",
@@ -1049,7 +1049,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BEB31F531A0D75EE00F525B9 /* Mac-Application.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = SwiftGit2Tests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.libgit2.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1059,7 +1059,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BEB31F531A0D75EE00F525B9 /* Mac-Application.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = SwiftGit2Tests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.libgit2.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
