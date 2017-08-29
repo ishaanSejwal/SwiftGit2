@@ -1,7 +1,36 @@
 {
   "autoPin": true,
   "pins": [
-
+    {
+      "package": "Clibgit2",
+      "reason": null,
+      "repositoryURL": "/Users/ishaansejwal/Developer/checkouts/Clibgit2",
+      "version": "0.1.0"
+    },
+    {
+      "package": "Guanaco",
+      "reason": null,
+      "repositoryURL": "/Users/ishaansejwal/Developer/checkouts/Guanaco",
+      "version": "0.1.0"
+    },
+    {
+      "package": "Nimble",
+      "reason": null,
+      "repositoryURL": "https://github.com/ishaanSejwal/Nimble.git",
+      "version": "7.0.1"
+    },
+    {
+      "package": "Quick",
+      "reason": null,
+      "repositoryURL": "https://github.com/Quick/Quick.git",
+      "version": "1.1.0"
+    },
+    {
+      "package": "Result",
+      "reason": null,
+      "repositoryURL": "https://github.com/antitypical/Result.git",
+      "version": "3.2.3"
+    }
   ],
   "version": 1
 }

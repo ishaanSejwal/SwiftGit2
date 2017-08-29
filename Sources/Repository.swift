@@ -6,9 +6,13 @@
 //  Copyright (c) 2014 GitHub, Inc. All rights reserved.
 //
 
+#if SWIFT_PACKAGE
+import Clibgit2
+#else
+import libgit2
+#endif
 import Foundation
 import Result
-import libgit2
 
 public typealias CheckoutProgressBlock = (String?, Int, Int) -> Void
 

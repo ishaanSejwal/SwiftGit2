@@ -6,7 +6,11 @@
 //  Copyright © 2016 GitHub, Inc. All rights reserved.
 //
 
+#if SWIFT_PACKAGE
+import Clibgit2
+#else
 import libgit2
+#endif
 
 private class Wrapper<T> {
 	let value: T

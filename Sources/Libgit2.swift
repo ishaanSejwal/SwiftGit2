@@ -6,7 +6,11 @@
 //  Copyright (c) 2015 GitHub, Inc. All rights reserved.
 //
 
+#if SWIFT_PACKAGE
+import Clibgit2
+#else
 import libgit2
+#endif
 
 func == (lhs: git_otype, rhs: git_otype) -> Bool {
 	return lhs.rawValue == rhs.rawValue

@@ -6,7 +6,11 @@
 //  Copyright (c) 2014 GitHub, Inc. All rights reserved.
 //
 
+#if SWIFT_PACKAGE
+import Clibgit2
+#else
 import libgit2
+#endif
 
 /// A pointer to a git object.
 public protocol PointerType: Equatable, Hashable {

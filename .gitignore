@@ -45,3 +45,4 @@ test_output
 
 # Swift Package manager
 .build/
+Packages/
